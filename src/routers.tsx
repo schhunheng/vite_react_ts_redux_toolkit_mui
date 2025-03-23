@@ -4,6 +4,7 @@ import { About } from "./pages";
 import Contact from "./pages/Contact";
 import ProductDetail from "./pages/ProuductDetail";
 import UnAuthLayout from "./components/layout/UnAuthLayout";
+import TodoPage from "./pages/Todo";
 const routes: RouteObject[] = [
   {
     path: "/",
@@ -28,6 +29,10 @@ const routes: RouteObject[] = [
       {
         path: "contact",
         Component: Contact,
+      },
+      {
+        path: "/todos",
+        Component: TodoPage,
       },
     ],
   },
