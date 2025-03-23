@@ -15,6 +15,7 @@ function Home() {
       <Button onClick={increase}>+</Button>
       Counter:<Typography>{counter}</Typography>
       <Button onClick={descrease}>-</Button>
+      <h1>Modified Home Page</h1>
     </>
   );
 }
